@@ -20,15 +20,16 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 
 ## Repository Structure
 .
-├── project 1 - cvar - overview.pdf # Assignment overview
-├── stocks2019.csv # Training data (returns from 2019)
-├── stocks2020.csv # Testing data (returns from 2020)
-├── src/ # Source code (to be added)
-│ ├── cvar_optimization.py
-│ ├── utils.py
+├── project 1 - cvar - overview.pdf   # Assignment overview
+├── stocks2019.csv                    # Training data (returns from 2019)
+├── stocks2020.csv                    # Testing data (returns from 2020)
+├── src/                              # Source code
+│   ├── cvar_optimization.py          # Your main model/analysis script
+│   ├── utils.py                      # Helper functions (e.g., returns calc, plotting)
 ├── reports/
-│ ├── project1_cvar_analysis.pdf # Final report (to be added)
+│   ├── project1_cvar_analysis.pdf    # Final report (to be added later)
 └── README.md
+
 
 
 ---
