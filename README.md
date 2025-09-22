@@ -19,23 +19,17 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 ---
 
 ## Repository Structure
-.
-├── project 1 - cvar - overview.pdf   # Assignment overview
-├── stocks2019.csv                    # Training data (returns from 2019)
-├── stocks2020.csv                    # Testing data (returns from 2020)
-├── src/                              # Source code
-│   ├── cvar_optimization.py          # Your main model/analysis script
-│   ├── utils.py                      # Helper functions (e.g., returns calc, plotting)
-├── reports/
-│   ├── project1_cvar_analysis.pdf    # Final report (to be added later)
-└── README.md
 
+## ✅ Task Tracking
 
-
----
-
-## ⚙️ Setup
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/graccelinn/optimization_project1.git
-   cd optimization_project1
+| Task                                | What                                                                 | File/Notebook                                                                                                 | Completed by | Date | Validated by | Notes / PR |
+| ----------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------ | ---- | ------------ | ---------- |
+| **Task A: Data Preparation**        | Load 2019 & 2020 stock data, compute daily returns, exclude NDX      | <a href="src/utils.py" target="_blank">utils.py</a>                                                           | Grace        |      |              |            |
+| **Task B: Base CVaR Optimization**  | Implement β=0.95 CVaR minimization with R=0.02% using 2019 data      | <a href="src/cvar_optimization.py" target="_blank">cvar_optimization.py</a>                                   |              |      |              |            |
+| **Task C: Out-of-Sample Test**      | Apply 2019 portfolio to 2020 data, compute CVaR, compare with NDX    | <a href="src/cvar_optimization.py" target="_blank">cvar_optimization.py</a>                                   |              |      |              |            |
+| **Task D: Sensitivity Analysis**    | Rerun optimization with β=0.90 and β=0.99, analyze allocation shifts | <a href="src/cvar_optimization.py" target="_blank">cvar_optimization.py</a>                                   |              |      |              |            |
+| **Task E: Conservative Approach**   | Minimize maximum monthly CVaR (worst-case month) in 2019             | <a href="src/cvar_optimization.py" target="_blank">cvar_optimization.py</a>                                   |              |      |              |            |
+| **Task F: Monthly Rebalancing**     | Optimize portfolios monthly in 2020 (rolling window), evaluate risks | <a href="src/cvar_optimization.py" target="_blank">cvar_optimization.py</a>                                   |              |      |              |            |
+| **Task G: Stability Constraint**    | Propose/model weight change ≤ 5% month-to-month                      | <a href="src/cvar_optimization.py" target="_blank">cvar_optimization.py</a>                                   |              |      |              |            |
+| **Task H: Report Writing**          | Summarize analysis, graphs, recommendations in PDF                   | <a href="reports/project1_cvar_analysis.pdf" target="_blank">project1_cvar_analysis.pdf</a>                   |              |      |              |            |
+| **Final Integration**               | Clean repo, finalize README, push all deliverables                   | <a href="README.md" target="_blank">README.md</a>                                                             |              |      |              |            |
