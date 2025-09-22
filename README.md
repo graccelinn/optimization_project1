@@ -31,11 +31,11 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 | Step                                | Description                                                          | Assigned to                   |
 | ----------------------------------- | -------------------------------------------------------------------- | ------------------------------|
 | **Step 1: Data Preparation**        | Load 2019 & 2020 stock data, compute daily returns, exclude NDX      | Melissa                       |
-| **Step 2: Base CVaR Optimization**  | Implement β=0.95 CVaR minimization with R=0.02% using 2019 data      |                               |
-| **Step 3: Out-of-Sample Test**      | Apply 2019 portfolio to 2020 data, compute CVaR, compare with NDX    |                               |
-| **Step 4: Sensitivity Analysis**    | Rerun optimization with β=0.90 and β=0.99, analyze allocation shifts |                               |
-| **Step 5: Conservative Approach**   | Minimize maximum monthly CVaR (worst-case month) in 2019             |                               |
-| **Step 6: Monthly Rebalancing**     | Optimize portfolios monthly in 2020 (rolling window), evaluate risks |                               |
-| **Step 7: Stability Constraint**    | Propose/model weight change ≤ 5% month-to-month                      |                               |
-| **Step 8: Report Writing**          | Summarize analysis, graphs, recommendations in PDF                   |                               |
+| **Step 2: Base CVaR Optimization**  | Implement β=0.95 CVaR minimization with R=0.02% using 2019 data      | Abhi                          |
+| **Step 3: Out-of-Sample Test**      | Apply 2019 portfolio to 2020 data, compute CVaR, compare with NDX    | Abhi                          |
+| **Step 4: Sensitivity Analysis**    | Rerun optimization with β=0.90 and β=0.99, analyze allocation shifts | Franco                        |
+| **Step 5: Conservative Approach**   | Minimize maximum monthly CVaR (worst-case month) in 2019             | Grace/Melissa                 |
+| **Step 5: Monthly Rebalancing**     | Optimize portfolios monthly in 2020 (rolling window), evaluate risks | Grace/Melissa                 |
+| **Step 6: Stability Constraint**    | Propose/model weight change ≤ 5% month-to-month                      | Grace/Melissa                 |
+| **Step 7/8: Report Writing**        | Summarize analysis, graphs, recommendations in PDF                   |                               |
 | **Final Integration**               | Clean repo, finalize README, push all deliverables                   |                               |
