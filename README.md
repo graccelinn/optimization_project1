@@ -23,7 +23,7 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 - [project_1_final.pdf](project_1_final.pdf) — Final report (exported from notebook)
 
 - [README.md](README.md) — Project documentation
-- [Project Overview (PDF)](project%20-%201%20-%20cvar%20-%20overview.pdf) — Assignment instructions  
+- [Project Overview (PDF)](project_overview.pdf) — Assignment instructions  
 - [stocks2019.csv](stocks2019.csv) — Training data (2019 returns)  
 - [stocks2020.csv](stocks2020.csv) — Testing data (2020 returns)  
 
