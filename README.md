@@ -19,9 +19,9 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 ---
 
 ## Repository Structure
-- [project_1.ipynb](project_1.ipynb) — Jupyter Notebook (main analysis & code)  
+- [project_1.ipynb](project_1.ipynb) — Jupyter Notebook (main analysis & code)
+- [project_1.gdoc](https://docs.google.com/document/d/1o3HeWdCndxqqt1l7TUEb04e3NR2ccrZ02B-h3pvP8ME/edit?usp=sharing) — Final report (exported from notebook)
 - [project_1.pdf](project_1.pdf) — Final report (exported from notebook)
-
 - [README.md](README.md) — Project documentation
 - [Project Overview (PDF)](project_overview.pdf) — Assignment instructions  
 - [stocks2019.csv](stocks2019.csv) — Training data (2019 returns)  
