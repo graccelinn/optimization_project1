@@ -28,14 +28,14 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 ---
 
 ## Task Tracking
-| Step                                | What                                                                 | Assigned/Completed by   |
-| ----------------------------------- | -------------------------------------------------------------------- | ----------------------- |
-| **Step 1: Data Preparation**        | Load 2019 & 2020 stock data, compute daily returns, exclude NDX      | Melissa                 |
-| **Step 2: Base CVaR Optimization**  | Implement β=0.95 CVaR minimization with R=0.02% using 2019 data      |                         |
-| **Step 3: Out-of-Sample Test**      | Apply 2019 portfolio to 2020 data, compute CVaR, compare with NDX    |                         |
-| **Step 4: Sensitivity Analysis**    | Rerun optimization with β=0.90 and β=0.99, analyze allocation shifts |                         |
-| **Step 5: Conservative Approach**   | Minimize maximum monthly CVaR (worst-case month) in 2019             |                         |
-| **Step 6: Monthly Rebalancing**     | Optimize portfolios monthly in 2020 (rolling window), evaluate risks |                         |
-| **Step 7: Stability Constraint**    | Propose/model weight change ≤ 5% month-to-month                      |                         |
-| **Step 8: Report Writing**          | Summarize analysis, graphs, recommendations in PDF                   |                         |
-| **Final Integration**               | Clean repo, finalize README, push all deliverables                   |                         |
+| Step                                | Description                                                          | Assigned to                   |
+| ----------------------------------- | -------------------------------------------------------------------- | ------------------------------|
+| **Step 1: Data Preparation**        | Load 2019 & 2020 stock data, compute daily returns, exclude NDX      | Melissa                       |
+| **Step 2: Base CVaR Optimization**  | Implement β=0.95 CVaR minimization with R=0.02% using 2019 data      |                               |
+| **Step 3: Out-of-Sample Test**      | Apply 2019 portfolio to 2020 data, compute CVaR, compare with NDX    |                               |
+| **Step 4: Sensitivity Analysis**    | Rerun optimization with β=0.90 and β=0.99, analyze allocation shifts |                               |
+| **Step 5: Conservative Approach**   | Minimize maximum monthly CVaR (worst-case month) in 2019             |                               |
+| **Step 6: Monthly Rebalancing**     | Optimize portfolios monthly in 2020 (rolling window), evaluate risks |                               |
+| **Step 7: Stability Constraint**    | Propose/model weight change ≤ 5% month-to-month                      |                               |
+| **Step 8: Report Writing**          | Summarize analysis, graphs, recommendations in PDF                   |                               |
+| **Final Integration**               | Clean repo, finalize README, push all deliverables                   |                               |
