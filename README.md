@@ -37,5 +37,5 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 | **Step 5: Conservative Approach**   | Minimize maximum monthly CVaR (worst-case month) in 2019             | Grace/Melissa                 |
 | **Step 5: Monthly Rebalancing**     | Optimize portfolios monthly in 2020 (rolling window), evaluate risks | Grace/Melissa                 |
 | **Step 6: Stability Constraint**    | Propose/model weight change ≤ 5% month-to-month                      | Grace/Melissa                 |
-| **Step 7/8: Report Writing**        | Summarize analysis, graphs, recommendations in PDF                   |                               |
-| **Final Integration**               | Clean repo, finalize README, push all deliverables                   |                               |
+| **Step 7/8: Report Writing**        | Summarize analysis, graphs, recommendations in PDF                   | Franco/Abhi                   |
+| **Final Integration**               | Clean repo, finalize README, push all deliverables                   | Franco/Abhi                   |
