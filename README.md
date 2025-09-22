@@ -3,6 +3,15 @@
 This repository contains the implementation and report for **Project 1: Portfolio Optimization using Conditional Value-at-Risk (CVaR)**.  
 The goal is to construct and analyze low-risk stock portfolios using 2019–2020 Nasdaq data, applying linear programming optimization.
 
+## Repository Structure
+- [project_1.ipynb](project_1.ipynb) — Jupyter Notebook (main analysis & code; **REMEMBER TO SAVE TO GITHUB AFTER EDITING IN COLAB**)
+- [project_1.gdoc](https://docs.google.com/document/d/1o3HeWdCndxqqt1l7TUEb04e3NR2ccrZ02B-h3pvP8ME/edit?usp=sharing) — Working report (google docs link)
+- [project_1.pdf](project_1.pdf) — Final report (exported from notebook)
+- [README.md](README.md) — Project documentation
+- [Project Overview (PDF)](project_overview.pdf) — Assignment instructions  
+- [stocks2019.csv](stocks2019.csv) — Training data (2019 returns)  
+- [stocks2020.csv](stocks2020.csv) — Testing data (2020 returns)  
+
 ---
 
 ## Project Overview
@@ -15,18 +24,6 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
   - Evaluate sensitivity to confidence levels (β).  
   - Test conservative approaches and monthly rebalancing.  
   - Discuss portfolio stability.  
-
----
-
-## Repository Structure
-- [project_1.ipynb](project_1.ipynb) — Jupyter Notebook (main analysis & code)
-- [project_1.gdoc](https://docs.google.com/document/d/1o3HeWdCndxqqt1l7TUEb04e3NR2ccrZ02B-h3pvP8ME/edit?usp=sharing) — Final report (exported from notebook)
-- [project_1.pdf](project_1.pdf) — Final report (exported from notebook)
-- [README.md](README.md) — Project documentation
-- [Project Overview (PDF)](project_overview.pdf) — Assignment instructions  
-- [stocks2019.csv](stocks2019.csv) — Training data (2019 returns)  
-- [stocks2020.csv](stocks2020.csv) — Testing data (2020 returns)  
-
 
 ---
 
