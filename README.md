@@ -19,9 +19,18 @@ The goal is to construct and analyze low-risk stock portfolios using 2019–2020
 ---
 
 ## Repository Structure
+- [project_1_final.ipynb](project_1_final.ipynb) — Jupyter Notebook (main analysis & code)  
+- [project_1_final.pdf](project_1_final.pdf) — Final report (exported from notebook)
 
-## ✅ Task Tracking
+- [README.md](README.md) — Project documentation
+- [Project Overview (PDF)](project%20-%201%20-%20cvar%20-%20overview.pdf) — Assignment instructions  
+- [stocks2019.csv](stocks2019.csv) — Training data (2019 returns)  
+- [stocks2020.csv](stocks2020.csv) — Testing data (2020 returns)  
 
+
+---
+
+## Task Tracking
 | Task                                | What                                                                 | File/Notebook                                                                                                 | Completed by | Date | Validated by | Notes / PR |
 | ----------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------ | ---- | ------------ | ---------- |
 | **Task A: Data Preparation**        | Load 2019 & 2020 stock data, compute daily returns, exclude NDX      | <a href="src/utils.py" target="_blank">utils.py</a>                                                           | Grace        |      |              |            |
